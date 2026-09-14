@@ -39,17 +39,36 @@ Project ini dirancang dengan menerapkan konsep konspe pemograman :
 ---
 
 ## 5. Input 
-ga paham timo nanti masukin yh tim 
+- Nilai Tugas (skala 0–100)
+- Nilai Quiz (skala 0–100)
+- Nilai UTS (skala 0–100)
+- Nilai UAS (skala 0–100)
+- Konfirmasi ulangi program (`ya` / `tidak`)
 
 ---
 
 ## 6. Process
-timo tolong tim 
+- **Validasi Input**: Memeriksa apakah setiap nilai yang dimasukkan berada dalam rentang `0` sampai `100`. Jika di luar rentang, program menampilkan pesan peringatan error.
+- **Kalkulasi Nilai Akhir**: Menghitung akumulasi nilai berdasarkan bobot masing-masing komponen:
+  $$\text{Nilai Akhir} = (20\% \times \text{Tugas}) + (20\% \times \text{Quiz}) + (30\% \times \text{UTS}) + (30\% \times \text{UAS})$$
+- **Konversi Grade**: Menentukan huruf mutu/grade berdasarkan nilai akhir:
+   if (NilaiAkhir >= 80) {
+      grade = "A";
+    } else if (NilaiAkhir >= 70) {
+      grade = "B";
+    } else if (NilaiAkhir >= 60) {
+      grade = "C";
+    } else if (NilaiAkhir >= 50) {
+      grade = "D";
+    } else {
+      grade = "E";
+- **Perulangan (Looping)**: Mengecek input konfirmasi dari pengguna untuk menentukan apakah proses perhitungan diulang kembali.
 
 ---
 
 ## 7. Ouput 
-tolomg
+- Pesan peringatan (Error) jika nilai tidak valid (x <=0 atau x >=100).
+- Hasil perhitungan Nilai Akhir dan Grade mahasiswa (ditampilkan via `alert`)
 
 ---
 
@@ -67,7 +86,6 @@ sama masukin kesini juga
 ---
 
 ## 10. JavaScript Implementation
-samafilenya taro sini 
 
 ---
 
