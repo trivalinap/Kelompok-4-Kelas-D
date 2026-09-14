@@ -55,6 +55,7 @@ tolomg
 
 ## 8. ALgorithm 
 filenya nanti masukin kesini ya 
+(pseudocode.md) ini draft pseudocode ya belum tentu fix
 
 ---
 
