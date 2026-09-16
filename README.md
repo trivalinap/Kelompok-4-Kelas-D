@@ -8,11 +8,11 @@ Tugas Kelompok Logika Pemograman
 ## Group Members
 |No.| Nama | NIM | Role |
 | --- | --- | --- |--- |
-| 1.| Trivalin Prabowo | 260312127 | --- |
+| 1.| Trivalin Prabowo | 260312127 | Project Coordinator |
 | 2.| Timothy Prawira Sirait | 2610312106 | JavaScript |
 | 3.| Muhammad Fadhil Ramadhan | 2610312135 | --- | 
 | 4.| Patricks Fabio Rongrong | 2610312121 | --- |
-| 5.| Rasyad Kurniawan Syahputra | 2610312132| ---|
+| 5.| Rasyad Kurniawan Syahputra | 2610312132| Flowchart |
 
 ---
 
@@ -81,11 +81,12 @@ ini draft pseudocode ya belum tentu fix
 ---
 
 ## 9. Flowchart 
-sama masukin kesini juga 
+Flowchart kami dibuat dengan aplikasi Flowgorithm
 
 ---
 
 ## 10. JavaScript Implementation
+Implementasi JavaScript dalam program kami tersedia melalui file berikut :
 [Script.js](./Script.js)
 ---
 
