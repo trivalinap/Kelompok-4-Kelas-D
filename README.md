@@ -86,7 +86,7 @@ sama masukin kesini juga
 ---
 
 ## 10. JavaScript Implementation
-[/.Script.js] 
+[Script.js](./Script.js)
 ---
 
 ## 11. Testing 
