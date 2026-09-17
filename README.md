@@ -82,6 +82,7 @@ ini draft pseudocode ya belum tentu fix
 
 ## 9. Flowchart 
 Flowchart kami dibuat dengan aplikasi Flowgorithm
+File : [Diagram Flowgarithm](./flowgarithm%20kelompok%204.fprg)
 
 ---
 
