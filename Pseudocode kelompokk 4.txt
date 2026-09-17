@@ -1,0 +1,36 @@
+Function Main
+    Declare Real Uts, Uas, Quiz, Tugas, score
+    Declare String Lanjut
+
+    Assign Lanjut = "y"
+    While Lanjut == "y"
+        Output "Masukan Nilai Uts: "
+        Input Uts
+        Output "Masukan Nilai Uas: "
+        Input Uas
+        Output "Masukan Nilai Quiz: "
+        Input Quiz
+        Output "Masukan Nilai Tugas: "
+        Input Tugas
+        Assign score = (Uts * 0.3)+(Uas * 0.3)+(Quiz * 0.2)+(Tugas * 0.2)
+        If score >= 80
+            Output score & " Grade A, passed with distinction"
+        Else
+            If score >= 70
+                Output Score & " Grade B, passed with good performance"
+            Else
+                If score >= 60
+                    Output score & " Grade C, passed"
+                Else
+                    If score >= 50
+                        Output score & " Grade D, passed"
+                    Else
+                        Output score & " Grade E, Tidak lulus"
+                    End
+                End
+            End
+        End
+        Output "mau menghitung lagi? (y/n)"
+        Input Lanjut
+    End
+End
