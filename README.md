@@ -72,11 +72,9 @@ Project ini dirancang dengan menerapkan konsep konspe pemograman :
 
 ---
 
-## 8. ALgorithm 
+## 8. Algorithm 
 Link Pseudocode
-
-[pseudocode.md](./pseudocode.md) 
-ini draft pseudocode ya belum tentu fix
+ [pseudocode Kelompok 4](./Pseudocode%20kelompokk%204.txt)
 
 ---
 
