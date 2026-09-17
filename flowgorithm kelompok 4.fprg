@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="else if"/>
+        <attribute name="authors" value="nadhi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-16 08:43:09 AM"/>
+        <attribute name="created" value="bmFkaGk7UklaS0EtQVNVUy00MkozOzIwMjYtMDktMDk7MDk6NTY6MTUgUE07MjgzMg=="/>
+        <attribute name="edited" value="bmFkaGk7UklaS0EtQVNVUy00MkozOzIwMjYtMDktMTA7MDg6MTg6MjcgQU07MjsyOTE4"/>
+        <attribute name="edited" value="cmFzeWFkIGt1cm5pYXdhbjtMQVBUT1AtRUpTNzRHQkI7MjAyNi0wOS0xNjswODo0MzowOSBBTTszOzQwODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Uts, Uas, Quiz, Tugas, score" type="Real" array="False" size=""/>
+            <declare name="Lanjut" type="String" array="False" size=""/>
+            <assign variable="Lanjut" expression="&quot;y&quot;"/>
+            <while expression="Lanjut == &quot;y&quot;">
+                <output expression="&quot;Masukan Nilai Uts: &quot;" newline="True"/>
+                <input variable="Uts"/>
+                <output expression="&quot;Masukan Nilai Uas: &quot;" newline="True"/>
+                <input variable="Uas"/>
+                <output expression="&quot;Masukan Nilai Quiz: &quot;" newline="True"/>
+                <input variable="Quiz"/>
+                <output expression="&quot;Masukan Nilai Tugas: &quot;" newline="True"/>
+                <input variable="Tugas"/>
+                <assign variable="score" expression="(Uts * 0.3)+(Uas * 0.3)+(Quiz * 0.2)+(Tugas * 0.2)"/>
+                <if expression="score &gt;= 80">
+                    <then>
+                        <output expression="score &amp; &quot; Grade A, passed with distinction&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="score &gt;= 70">
+                            <then>
+                                <output expression="Score &amp; &quot; Grade B, passed with good performance&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="score &gt;= 60">
+                                    <then>
+                                        <output expression="score &amp; &quot; Grade C, passed&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="score &gt;= 50">
+                                            <then>
+                                                <output expression="score &amp; &quot; Grade D, passed&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <output expression="score &amp; &quot; Grade E, Tidak lulus&quot;" newline="True"/>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <output expression="&quot;mau menghitung lagi? (y/n)&quot;" newline="True"/>
+                <input variable="Lanjut"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
