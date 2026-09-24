@@ -95,3 +95,9 @@ Hasil testing dapat dilihat melalui link berikut ini:
 [TestingGradeMath.md](./TestingGradeMath.md) 
 
 
+——
+## 12. HTML
+
+Berikut hasil HTML program kami : 
+
+[https://trivalinap.github.io/Draft-GradeMate/](./https://trivalinap.github.io/Draft-GradeMate/)
