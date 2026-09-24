@@ -10,8 +10,8 @@ Tugas Kelompok Logika Pemograman
 | --- | --- | --- |--- |
 | 1.| Trivalin Prabowo | 260312127 | Project Coordinator |
 | 2.| Timothy Prawira Sirait | 2610312106 | JavaScript |
-| 3.| Muhammad Fadhil Ramadhan | 2610312135 | --- | 
-| 4.| Patricks Fabio Rongrong | 2610312121 | --- |
+| 3.| Muhammad Fadhil Ramadhan | 2610312135 | Pseudocode | 
+| 4.| Patricks Fabio Rongrong | 2610312121 | Testing and Documentation |
 | 5.| Rasyad Kurniawan Syahputra | 2610312132| Flowchart |
 
 ---
@@ -91,6 +91,7 @@ Implementasi JavaScript dalam program kami tersedia melalui file berikut :
 ---
 
 ## 11. Testing 
-masukin sini juga filenya 
+Hasil testing dapat dilihat melalui link berikut ini:
+[TestingGradeMath.md](./TestingGradeMath.md) 
 
 
